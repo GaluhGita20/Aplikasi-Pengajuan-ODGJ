@@ -11,7 +11,7 @@
         class="header-bg h-100 d-flex flex-column justify-content-center p-5"
         >
         <h1 class="display-4 text-light mb-5">
-            RULPE (Ruang Layanan Pengajuan) ODGJ
+            RUPEN (Ruang Layanan Pengajuan) ODGJ
         </h1>
         <div class="d-flex align-items-center pt-4 animated slideInDown">
             <a href="" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5"
@@ -88,10 +88,10 @@
     <div class="container">
     <div class="row g-5">
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-        <p><span class="text-primary me-2">#</span>Welcome To RULPE ODGJ</p>
+        <p><span class="text-primary me-2">#</span>Welcome To RUPEN ODGJ</p>
         <h1 class="display-5 mb-4">
             Why You Should Know About
-            <span class="text-primary">RULPE ODGJ</span>
+            <span class="text-primary">RUPEN ODGJ</span>
         </h1>
         <p class="mb-4">
             Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No
@@ -177,7 +177,7 @@
         <p><span class="text-primary me-2">#</span>Our Services</p>
         <h1 class="display-5 mb-0">
             Special Services For
-            <span class="text-primary">Client</span> RULPE ODGJ
+            <span class="text-primary">Client</span> RUPEN ODGJ
         </h1>
         </div>
         <div class="col-lg-6">
@@ -296,7 +296,7 @@
         <div class="col-lg-6">
         <p><span class="text-primary me-2">#</span>Our Animals</p>
         <h1 class="display-5 mb-0">
-            Let`s See Our <span class="text-primary">RULPE ODGJ</span> Awsome
+            Let`s See Our <span class="text-primary">RUPEN ODGJ</span> Awsome
             Activity
         </h1>
         </div>
@@ -313,7 +313,7 @@
             <a
                 class="animal-item"
                 href="frontend/img/home/g1.jpg"
-                data-lightbox="rulpe"
+                data-lightbox="rupen"
             >
                 <div class="position-relative">
                 <img class="img-fluid" src="frontend/img/home/g1.jpg" alt="" />

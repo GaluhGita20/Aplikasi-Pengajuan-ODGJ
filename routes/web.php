@@ -20,6 +20,7 @@ use App\Http\Controllers\Admin\{
 |
 */
 
+Auth::routes();
 Route::get('/', [FrontEndController::class, 'index'])->name('home');
 Route::get('/login', [FrontEndController::class, 'login'])->name('login');
 Route::get('/register', [FrontEndController::class, 'register'])->name('register');
@@ -32,3 +33,4 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
     Route::get('/pengajuanODGJ', [AdminPengajuanODGJController::class, 'index'])->name('pengajuan');
 
 });
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

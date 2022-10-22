@@ -16,7 +16,7 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="backend/css/vertical-layout-light/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="backend/images/favicon.png" />
+  <!-- <link rel="shortcut icon" href="backend/images/favicon.png" /> -->
 </head>
 
 <body>
