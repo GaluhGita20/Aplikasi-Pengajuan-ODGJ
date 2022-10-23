@@ -94,8 +94,8 @@
       class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
       data-wow-delay="0.1s">
       <a href="{{route('home')}}" class="navbar-brand p-0">
-        <!-- <img class="img-fluid me-3" src="#" alt="Icon" /> -->
-        <h1 class="m-0 text-primary">RUPEN ODGJ</h1>
+        <img class="img-fluid me-3" src="{{asset('frontend/img/logo_gemastik.png')}}" alt="Icon" />
+        <!-- <h1 class="m-0 text-primary">RUPEN ODGJ</h1> -->
       </a>
       <button
         type="button"

@@ -225,7 +225,7 @@
         data-wow-delay="0.1s"
     >
         <div class="col-lg-6">
-        <p><span class="text-primary me-2">#</span>Our Animals</p>
+        <p><span class="text-primary me-2">#</span>Our Gallery</p>
         <h1 class="display-5 mb-0">
             Let`s See Our <span class="text-primary">RUPEN ODGJ</span> Awsome
             Activity
@@ -346,7 +346,7 @@
 <!-- Galery End -->
 
 <!-- Testimonial Start -->
-<div class="container-xxl py-5">
+<!-- <div class="container-xxl py-5">
     <div class="container">
     <h1
         class="display-5 text-center mb-5 wow fadeInUp"
@@ -411,7 +411,7 @@
         </div>
     </div>
     </div>
-</div>
+</div> -->
 <!-- Testimonial End -->
 
 @endsection

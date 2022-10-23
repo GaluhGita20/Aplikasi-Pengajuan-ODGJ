@@ -37,7 +37,8 @@
   }
 </style>
 <div class="container-scroller">
-  <form>
+  <form action="{{route('register_proses')}}" method="POST">
+    @csrf
     <div class="container-fluid page-body-wrapper full-page-wrapper">
       <div class="content-wrapper d-flex align-items-center auth px-0" style="background:#fff">  
         <div class="row w-100 mx-0">

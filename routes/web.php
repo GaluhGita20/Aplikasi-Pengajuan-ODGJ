@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\{
+    Login,
+};
 use App\Http\Controllers\Frontend\{
     FrontEndController,
 };
@@ -8,6 +11,18 @@ use App\Http\Controllers\Frontend\{
 use App\Http\Controllers\Admin\{
     AdminDashboardController,
     AdminPengajuanODGJController,
+};
+
+use App\Http\Controllers\RSJ\{
+    RSJDashboardController,
+};
+
+use App\Http\Controllers\LSM\{
+    LSMDashboardController,
+};
+
+use App\Http\Controllers\User\{
+    UserDashboardController,
 };
 /*
 |--------------------------------------------------------------------------
@@ -27,9 +42,25 @@ Route::get('/partnerRSJ', [FrontEndController::class, 'partnerRSJ'])->name('part
 Route::get('/donasi', [FrontEndController::class, 'donasi'])->name('donasi');
 Route::get('/login', [FrontEndController::class, 'login'])->name('login');
 Route::get('/register', [FrontEndController::class, 'register'])->name('register');
+route::post('registers_proses',[Login::class,'proses_register'])->name('register_proses');
+Route::post('logins_proses',[Login::class,'proses_login'])->name('login_proses');
+
+Route::get('/dashboard', [UserDashboardController::class, 'index'])->name('dashboard');
 
 
-// ebook
+// LSM
+Route::group(['prefix' => 'lsm', 'as' => 'lsm'], function () {
+    Route::get('/dashboard', [LSMDashboardController::class, 'index'])->name('dashboard');
+
+});
+
+// pihakrsj
+Route::group(['prefix' => 'pihakrsj', 'as' => 'pihakrsj.'], function () {
+    Route::get('/dashboard', [RSJDashboardController::class, 'index'])->name('dashboard');
+
+});
+
+// admin
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
     Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('dashboard');
     Route::get('/obat', [AdminDashboardController::class, 'obatIndex'])->name('obat.index');
