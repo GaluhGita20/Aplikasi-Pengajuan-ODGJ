@@ -188,29 +188,29 @@
         data-wow-delay="0.1s">
           <img class="img-fluid mb-3" src="frontend/img/home/icon_buildingrs.png" alt="Icon" style="width:90%; height:300px;"/>
           <h5 class="mb-3">Ruang Perawatan ODGJ</h5>
-          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-            sed diam stet diam sed stet.</span>
+          <span>Dapatkaan infromasi mengenai perkembangan pasien ODGJ untuk
+            memudahkan pemantauan jarak jauh.</span>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
         data-wow-delay="0.1s">
           <img class="img-fluid mb-3" src="frontend/img/home/icon_cs.png" alt="Icon" style="width:80%; height:300px;" />
           <h5 class="mb-3">Layanan Customer Service</h5>
-          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-            sed diam stet diam sed stet.</span>
+          <span>Lapor ODGJ yang ada disekitarmu agar mendapatkan lingkungan dan pengaobatan yang sesuai. RUPEN akan senantiasa menerima laporanmu.</span>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
         data-wow-delay="0.1s">
           <img class="img-fluid mb-3" src="frontend/img/home/lsm.png" alt="Icon" style="width:80%; height:300px;" />
           <h5 class="mb-3">Terintegrasi Dengan LSM</h5>
-          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-            sed diam stet diam sed stet.</span>
+          <span>LSM akan membantu dalam pertolongan administrasi dan
+            perbantuan komunikasi. Dengan ini keraguan dan ketakutanmu melapor karena susah akan 
+            terbantu.</span>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
         data-wow-delay="0.1s">
           <img class="img-fluid mb-3" src="frontend/img/home/donasi.png" alt="Icon" style="width:80%; height:300px;" />
           <h5 class="mb-3">Fitur Donasi</h5>
-          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-            sed diam stet diam sed stet.</span>
+          <span>Bingung biaya untuk pengobatan ODGJ? Dapatkan fitur donasi untuk Open 
+            Donasi, share pengumanmu dan dapatkan donasi untuk pengobatan.</span>
         </div>
     </div>
     </div>
