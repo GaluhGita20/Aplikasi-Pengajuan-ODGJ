@@ -37,7 +37,8 @@
   }
 </style>
 <div class="container-scroller">
-  <form>
+  <form action="{{route('login_proses')}}" method="POST">
+    @csrf
     <div class="container-fluid page-body-wrapper full-page-wrapper">
       <div class="content-wrapper d-flex align-items-center auth px-0" style="background:#fff">  
         <div class="row w-100 mx-0">
@@ -45,21 +46,21 @@
             <h1 class="text-center" style="color: #2371e0;">Select Role</h1>
             <div class="form row w-100 mx-0 mt-3">
               <div class="form-input my-auto">
-                  <input type="radio" name="role" id="select_role" value="" style="display:none">
+                  <input type="radio" name="role" id="select_role" value="end-user" style="display:none">
                     <label for="select_role" style="display:block; text-align:center">
                     <img src="{{asset('frontend/img/login/client.png')}}" style="width:100%;height:200px;" alt="logo">
                     <h3 class="title" style="font-size:30px; font-weight:800; margin-top:10px;">Client</h3>
                   </label>
               </div>
               <div class="form-input my-auto mt-3">
-                  <input type="radio" name="role" id="select_role2" value="" style="display:none">
+                  <input type="radio" name="role" id="select_role2" value="pihak rsj" style="display:none">
                     <label for="select_role2" style="display:block; text-align:center">
                     <img src="{{asset('frontend/img/login/doctor.png')}}" style="width:100%; height:200px;" alt="logo">
                     <h3 class="title" style="font-size:30px; font-weight:800; margin-top:10px;">Pihak RS</h3>
                   </label>
               </div>
               <div class="form-input mx-auto mt-3">
-                  <input type="radio" name="role" id="select_role3" value="" style="display:none">
+                  <input type="radio" name="role" id="select_role3" value="lsm" style="display:none">
                     <label for="select_role3" style="display:block; text-align:center">
                     <img src="{{asset('frontend/img/login/lsm.png')}}" style="width:100%; height:200px;" alt="logo">
                     <h3 class="title" style="font-size:30px; font-weight:800; margin-top:10px;">Pihak LSM</h3>
@@ -77,13 +78,13 @@
               <h6 class="font-weight-light">Sign in to continue.</h6>
               <div class="pt-3">
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username">
+                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username" name="email">
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
+                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password" name="password">
                 </div>
                 <div class="mt-3">
-                  <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="#">SIGN IN</a>
+                  <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" >SIGN IN</button>
                 </div>
                 <div class="my-2 d-flex justify-content-between align-items-center">
                   <div class="form-check">

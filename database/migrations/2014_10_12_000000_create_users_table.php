@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('foto_ktp')->nullable();
             $table->string('jenis_kelamin')->nullable();
             $table->date('tanggal_lahir')->nullable();
-            $table->enum('role', ['end-user', 'pihak rs', 'lsm'])->nullable();
+            $table->enum('role', ['end-user', 'pihak rsj', 'lsm'])->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
