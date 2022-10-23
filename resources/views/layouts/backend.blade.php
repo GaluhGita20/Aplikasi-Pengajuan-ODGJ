@@ -146,10 +146,10 @@
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{route('admin.pengajuan')}}">
-              <i class="icon-paper menu-icon"></i>
-              <span class="menu-title">Pengajuan ODGJ</span>
+          <li class="nav-item" @if($page == 'obat') style="background:#be1812; border-radius:8px;" @endif>
+            <a class="nav-link" href="{{route('admin.obat.index')}}">
+              <i class="icon-paper menu-icon"@if($page == 'obat') style="color:white;" @endif></i>
+              <span class="menu-title"@if($page == 'obat') style="color:white;" @endif>Obat</span>
             </a>
           </li>
           <li class="nav-item">
@@ -185,10 +185,10 @@
               <span class="menu-title">Nontification</span>
             </a>
           </li>
-          <li class="nav-item" style="background:#be1812; border-radius:8px;">
+          <li class="nav-item">
             <a class="nav-link" href="">
-              <i class="mdi mdi-logout menu-icon" style="color:white"></i>
-              <span class="menu-title" style="color:white">Logout</span>
+              <i class="mdi mdi-logout menu-icon"></i>
+              <span class="menu-title">Logout</span>
             </a>
           </li>
         </ul>

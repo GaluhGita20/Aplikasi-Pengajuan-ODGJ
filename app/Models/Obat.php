@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Obat extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'nama_obat',
+        'desc_obat',
+        'jenis_obat',
+        'konsumsi_perhari',
+    ];
 }

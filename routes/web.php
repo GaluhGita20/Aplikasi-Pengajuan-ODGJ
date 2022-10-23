@@ -32,9 +32,14 @@ Route::get('/register', [FrontEndController::class, 'register'])->name('register
 // ebook
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
     Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('dashboard');
+    Route::get('/obat', [AdminDashboardController::class, 'obatIndex'])->name('obat.index');
+    Route::get('/obat/add', [AdminDashboardController::class, 'obatAdd'])->name('obat.add');
+    Route::post('/obat/save', [AdminDashboardController::class, 'obatSave'])->name('obat.save');
+    Route::get('/obat/edit/{id}', [AdminDashboardController::class, 'obatEdit'])->name('obat.edit');
+    Route::post('/obat/update/{id}', [AdminDashboardController::class, 'obatUpdate'])->name('obat.update');
+    Route::post('/obat/delete/{id}', [AdminDashboardController::class, 'obatDelete'])->name('obat.delete');
     Route::get('/form', [AdminDashboardController::class, 'form'])->name('form');
     Route::get('/pengajuanODGJ', [AdminPengajuanODGJController::class, 'index'])->name('pengajuan');
-
 });
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
