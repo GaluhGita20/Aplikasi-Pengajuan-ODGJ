@@ -11,7 +11,7 @@
         class="header-bg h-100 d-flex flex-column justify-content-center p-5"
         >
         <h1 class="display-4 text-light mb-5">
-            RUPEN (Ruang Layanan Pengajuan) ODGJ
+            RUPEN (Ruang Pengaduan) ODGJ
         </h1>
         <div class="d-flex align-items-center pt-4 animated slideInDown">
             <a href="" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5"
@@ -94,25 +94,16 @@
             <span class="text-primary">RUPEN ODGJ</span>
         </h1>
         <p class="mb-4">
-            Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No
-            stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo
-            nonumy clita sit at, sed sit sanctus dolor eos.
+            Ruang Pengaduan ODGJ (RUPEN ODGJ) merupakan aplikasi berbasis website yang hadir untuk membantu meminimalisir kesejangan pengobatanyang terjadi pada pasien ODGJ. Dengan RUPEN, masyarakat dan keluarga ODGJ dapat mendaftarkan ataupun melaporkan ODGJ yang ada di sekitarnya agar dapat ditangani lebih lanjut oleh pihak terkait.
         </p>
         <h5 class="mb-3">
-            <i class="far fa-check-circle text-primary me-3"></i>Free Car
-            Parking
+            <i class="far fa-check-circle text-primary me-3"></i>Pengaduan Keberadaan ODGJ
         </h5>
         <h5 class="mb-3">
-            <i class="far fa-check-circle text-primary me-3"></i>Natural
-            Environment
+            <i class="far fa-check-circle text-primary me-3"></i>Update Informasi Kesehatan Pasien
         </h5>
         <h5 class="mb-3">
-            <i class="far fa-check-circle text-primary me-3"></i>Professional
-            Guide & Security
-        </h5>
-        <h5 class="mb-3">
-            <i class="far fa-check-circle text-primary me-3"></i>World Best
-            Animals
+            <i class="far fa-check-circle text-primary me-3"></i>Donasi
         </h5>
         <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
         </div>
@@ -193,93 +184,33 @@
         </div>
     </div>
     <div class="row gy-5 gx-4">
-        <div
-        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-        data-wow-delay="0.1s"
-        >
-        <img class="img-fluid mb-3" src="frontend/img/icon/icon-2.png" alt="Icon" />
-        <h5 class="mb-3">Car Parking</h5>
-        <span
-            >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-            sed diam stet diam sed stet.</span
-        >
+        <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+        data-wow-delay="0.1s">
+          <img class="img-fluid mb-3" src="frontend/img/home/icon_buildingrs.png" alt="Icon" style="width:90%; height:300px;"/>
+          <h5 class="mb-3">Ruang Perawatan ODGJ</h5>
+          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+            sed diam stet diam sed stet.</span>
         </div>
-        <div
-        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-        data-wow-delay="0.3s"
-        >
-        <img class="img-fluid mb-3" src="frontend/img/icon/icon-3.png" alt="Icon" />
-        <h5 class="mb-3">Animal Photos</h5>
-        <span
-            >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-            sed diam stet diam sed stet.</span
-        >
+        <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+        data-wow-delay="0.1s">
+          <img class="img-fluid mb-3" src="frontend/img/home/icon_cs.png" alt="Icon" style="width:80%; height:300px;" />
+          <h5 class="mb-3">Layanan Customer Service</h5>
+          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+            sed diam stet diam sed stet.</span>
         </div>
-        <div
-        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-        data-wow-delay="0.5s"
-        >
-        <img class="img-fluid mb-3" src="frontend/img/icon/icon-4.png" alt="Icon" />
-        <h5 class="mb-3">Guide Services</h5>
-        <span
-            >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-            sed diam stet diam sed stet.</span
-        >
+        <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+        data-wow-delay="0.1s">
+          <img class="img-fluid mb-3" src="frontend/img/home/lsm.png" alt="Icon" style="width:80%; height:300px;" />
+          <h5 class="mb-3">Terintegrasi Dengan LSM</h5>
+          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+            sed diam stet diam sed stet.</span>
         </div>
-        <div
-        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-        data-wow-delay="0.7s"
-        >
-        <img class="img-fluid mb-3" src="frontend/img/icon/icon-5.png" alt="Icon" />
-        <h5 class="mb-3">Food & Beverages</h5>
-        <span
-            >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-            sed diam stet diam sed stet.</span
-        >
-        </div>
-        <div
-        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-        data-wow-delay="0.1s"
-        >
-        <img class="img-fluid mb-3" src="frontend/img/icon/icon-6.png" alt="Icon" />
-        <h5 class="mb-3">Zoo Shopping</h5>
-        <span
-            >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-            sed diam stet diam sed stet.</span
-        >
-        </div>
-        <div
-        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-        data-wow-delay="0.3s"
-        >
-        <img class="img-fluid mb-3" src="frontend/img/icon/icon-7.png" alt="Icon" />
-        <h5 class="mb-3">Free Hi Speed Wi-Fi</h5>
-        <span
-            >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-            sed diam stet diam sed stet.</span
-        >
-        </div>
-        <div
-        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-        data-wow-delay="0.5s"
-        >
-        <img class="img-fluid mb-3" src="frontend/img/icon/icon-8.png" alt="Icon" />
-        <h5 class="mb-3">Play Ground</h5>
-        <span
-            >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-            sed diam stet diam sed stet.</span
-        >
-        </div>
-        <div
-        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-        data-wow-delay="0.7s"
-        >
-        <img class="img-fluid mb-3" src="frontend/img/icon/icon-9.png" alt="Icon" />
-        <h5 class="mb-3">Rest House</h5>
-        <span
-            >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-            sed diam stet diam sed stet.</span
-        >
+        <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+        data-wow-delay="0.1s">
+          <img class="img-fluid mb-3" src="frontend/img/home/donasi.png" alt="Icon" style="width:80%; height:300px;" />
+          <h5 class="mb-3">Fitur Donasi</h5>
+          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+            sed diam stet diam sed stet.</span>
         </div>
     </div>
     </div>

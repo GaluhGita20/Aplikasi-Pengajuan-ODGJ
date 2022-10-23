@@ -12,6 +12,19 @@ class FrontEndController extends Controller
         return view('frontend.home');
     }
 
+    public function workflow(){
+        return view('frontend.workflow');
+    }
+
+    public function partnerRSJ(){
+        return view('frontend.partnerRSJ');
+    }
+
+    public function donasi(){
+        return view('frontend.donasi');
+    }
+
+
     public function login(){
         return view('temp-auth.login');
     }

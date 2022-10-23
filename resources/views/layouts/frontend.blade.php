@@ -95,7 +95,7 @@
       data-wow-delay="0.1s">
       <a href="{{route('home')}}" class="navbar-brand p-0">
         <!-- <img class="img-fluid me-3" src="#" alt="Icon" /> -->
-        <h1 class="m-0 text-primary">Rulpe ODGJ</h1>
+        <h1 class="m-0 text-primary">RUPEN ODGJ</h1>
       </a>
       <button
         type="button"
@@ -107,9 +107,11 @@
       </button>
       <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
         <div class="navbar-nav ms-auto">
-          <a href="{{route('home')}}" class="nav-item nav-link active">Home</a>
-          <a href="" class="nav-item nav-link">About</a>
-          <a href="" class="nav-item nav-link">Services</a>
+          <a href="{{route('home')}}" class="nav-item nav-link {{ (request()->segment(1) == '') ? 'active' : '' }}">Home</a>
+          <a href="{{route('workflow')}}" class="nav-item nav-link {{ (request()->segment(1) == 'workflow') ? 'active' : '' }}">Workflow</a>
+          <a href="{{route('partnerRSJ')}}" class="nav-item nav-link {{ (request()->segment(1) == 'partnerRSJ') ? 'active' : '' }}">Partner RSJ</a>
+          <a href="{{route('donasi')}}" class="nav-item nav-link {{ (request()->segment(1) == 'donasi') ? 'active' : '' }}">Donasi</a>
+          <!-- <a href="" class="nav-item nav-link">Services</a>
           <div class="nav-item dropdown">
             <a
               href="#"
@@ -124,7 +126,7 @@
               <a href="" class="dropdown-item">Testimonial</a>
               <a href="" class="dropdown-item">404 Page</a>
             </div>
-          </div>
+          </div> -->
           <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
         <a href="{{route('login')}}" class="btn btn-primary"
@@ -170,24 +172,24 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">Quick Links</h5>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
+            <h5 class="text-light mb-4">Our Menu</h5>
+            <a class="btn btn-link" href="">Home</a>
+            <a class="btn btn-link" href="">Workflow</a>
+            <a class="btn btn-link" href="">Partner RSJ</a>
+            <a class="btn btn-link" href="">Donasi</a>
+            <a class="btn btn-link" href="">Contact</a>
           </div>
           <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">Popular Links</h5>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
+            <h5 class="text-light mb-4">Our Service</h5>
+            <a class="btn btn-link" href="">Home</a>
+            <a class="btn btn-link" href="">Workflow</a>
+            <a class="btn btn-link" href="">Partner RSJ</a>
+            <a class="btn btn-link" href="">Donasi</a>
+            <a class="btn btn-link" href="">Contact</a>
           </div>
           <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">Newsletter</h5>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <h5 class="text-light mb-4">Contact Us</h5>
+            <p>Untuk informasi lebih lanjut silahkan hubungin kami.</p>
             <div class="position-relative mx-auto" style="max-width: 400px">
               <input
                 class="form-control border-0 w-100 py-3 ps-4 pe-5"
@@ -198,7 +200,7 @@
                 type="button"
                 class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
               >
-                SignUp
+                Send
               </button>
             </div>
           </div>
