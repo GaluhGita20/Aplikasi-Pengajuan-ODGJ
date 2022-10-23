@@ -13,7 +13,6 @@ class Login extends Controller
     
 
     public function proses_register(request $request){
-      
         $request->validate([
             'name'=>'required',
             'email'=>'required|unique:users,email',
@@ -53,16 +52,16 @@ class Login extends Controller
         $check= $request->only('email','password');
         $data = User::where('email',$request->email)->first();
         if($data){ //apakah email tersebut ada atau tidak
-            if($data->status== 'aktif'){
+            // if($data->status== 'aktif'){
                 if(Hash::check($request->password,$data->password)){
                     if(Auth::guard('web')->attempt($check)){
-                        if($user->role == "end-user"){
+                        if($data->role == "end-user"){
                             session(['user'=>true]);
                             return redirect()->route('dashboard');
-                        } elseif ($user->role == "pihak rsj"){
+                        } elseif ($data->role == "pihak rsj"){
                             session(['pihakrsj'=>true]);
                             return redirect()->route('pihakrsj.dashboard');
-                        } elseif ($user->role == "lsm"){
+                        } elseif ($data->role == "lsm"){
                             session(['lsm'=>true]);
                             return redirect()->route('lsm.dashboard');
                         }
@@ -73,9 +72,9 @@ class Login extends Controller
                 else{
                     return redirect('login')->with('error','Password Salah !');
                 }
-            }else{
-                return redirect('login')->with('error','Akun telah dinonaktifkan, silahkan hubungi customer service!');
-            }
+            // }else{
+            //     return redirect('login')->with('error','Akun telah dinonaktifkan, silahkan hubungi customer service!');
+            // }
             
         }
         else{
