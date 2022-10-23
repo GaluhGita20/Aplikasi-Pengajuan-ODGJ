@@ -41,7 +41,7 @@ class Login extends Controller
     }
 
     public function proses_login(request $request){
-        return $request;
+        // return $request;
         $request->validate([
             'role'=>'required',
             'email'=>'required',
